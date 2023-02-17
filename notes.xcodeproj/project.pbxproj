@@ -16,6 +16,8 @@
 		A7D13117299DF8B100D29912 /* notesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D13116299DF8B100D29912 /* notesTests.swift */; };
 		A7D13121299DF8B100D29912 /* notesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D13120299DF8B100D29912 /* notesUITests.swift */; };
 		A7D13123299DF8B100D29912 /* notesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D13122299DF8B100D29912 /* notesUITestsLaunchTests.swift */; };
+		A7D13130299DF90F00D29912 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D1312F299DF90F00D29912 /* NotesViewController.swift */; };
+		A7D13132299DFA4E00D29912 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D13131299DFA4E00D29912 /* EntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A7D1311C299DF8B100D29912 /* notesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D13120299DF8B100D29912 /* notesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesUITests.swift; sourceTree = "<group>"; };
 		A7D13122299DF8B100D29912 /* notesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A7D1312F299DF90F00D29912 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		A7D13131299DFA4E00D29912 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				A7D13108299DF8B000D29912 /* Assets.xcassets */,
 				A7D1310A299DF8B000D29912 /* LaunchScreen.storyboard */,
 				A7D1310D299DF8B000D29912 /* Info.plist */,
+				A7D1312F299DF90F00D29912 /* NotesViewController.swift */,
+				A7D13131299DFA4E00D29912 /* EntryViewController.swift */,
 			);
 			path = notes;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D13130299DF90F00D29912 /* NotesViewController.swift in Sources */,
+				A7D13132299DFA4E00D29912 /* EntryViewController.swift in Sources */,
 				A7D13104299DF8AE00D29912 /* ViewController.swift in Sources */,
 				A7D13100299DF8AE00D29912 /* AppDelegate.swift in Sources */,
 				A7D13102299DF8AE00D29912 /* SceneDelegate.swift in Sources */,
